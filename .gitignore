@@ -1,0 +1,22 @@
+# Flutter-related files
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+
+# iOS-related files
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Generated.xcconfig
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDevice.lsset/
+ios/build/
+
+# IDE, Browser, and System cache
+.history
+.vscode/
+.idea/
+*.log
+doc/api/
+.contents
