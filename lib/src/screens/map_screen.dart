@@ -20,15 +20,13 @@ class _MapScreenState extends State<MapScreen> {
         children: [
           // --- LAYER 1: The Background Map ---
           MapWidget(
+            styleUri: "mapbox://styles/idra-hsieh/cmjryrvyu000101rd65odctc5",
             cameraOptions: CameraOptions(
               center: Point(coordinates: Position(121.5654, 25.0330)),
               zoom: 15.0,
             ),
             onMapCreated: (MapboxMap mapboxMap) {
               this.mapboxMap = mapboxMap;
-              mapboxMap.loadStyleURI(
-                "mapbox://styles/idra-hsieh/cmjryrvyu000101rd65odctc5",
-              );
             },
           ),
 
