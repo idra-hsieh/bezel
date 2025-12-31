@@ -21,7 +21,7 @@ class _MapScreenState extends State<MapScreen> {
           // --- LAYER 1: The Background Map ---
           MapWidget(
             cameraOptions: CameraOptions(
-              center: Point(coordinates: Position(121.5654, 25.0330)).toJson(),
+              center: Point(coordinates: Position(121.5654, 25.0330)),
               zoom: 15.0,
             ),
             onMapCreated: (MapboxMap mapboxMap) {
