@@ -1,7 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:mapbox_maps_flutter/mapbox_maps_flutter.dart';
 import 'src/screens/map_screen.dart'; // Import the MapScreen
 
 void main() {
+  MapboxOptions.setAccessToken(
+    "pk.eyJ1IjoiaWRyYS1oc2llaCIsImEiOiJjbWpyeTdzZzQ0cDJxM2VxM2J3cHA1a2YzIn0.gRhxQRWzfnDabBVb9LgDtQ",
+  );
   runApp(const BezelApp());
 }
 

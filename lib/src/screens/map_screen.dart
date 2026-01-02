@@ -16,6 +16,7 @@ class _MapScreenState extends State<MapScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.transparent,
       body: Stack(
         children: [
           // --- LAYER 1: The Background Map ---
@@ -42,7 +43,7 @@ class _MapScreenState extends State<MapScreen> {
                   Icon(Icons.location_on, color: Colors.blueGrey),
                   SizedBox(width: 10),
                   Text(
-                    "Exploring: Xinyi District",
+                    "Exploring: Xinyi District (test)",
                     style: TextStyle(
                       fontWeight: FontWeight.bold,
                       color: Colors.black87,
