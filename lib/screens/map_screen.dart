@@ -33,7 +33,7 @@ class _MapScreenState extends State<MapScreen> {
     return Scaffold(
       body: mb.MapWidget(
         onMapCreated: _onMapCreated,
-        styleUri: mb.MapboxStyles.LIGHT,
+        styleUri: "mapbox://styles/idra-hsieh/cmjryrvyu000101rd65odctc5",
       ),
     );
   }
